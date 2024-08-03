@@ -6,17 +6,17 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    colors: {
-      background: "#ffffff",
-      textColor: "#000000",
-      gradient1: "#f6f6f4",
-      gradient2: "#9ea7b5",
-      gradient3: "#c4c9d2",
-      borderColorGreen: "#619e86",
-      buttonColorShade1: "#844a92",
-      buttonColorShade2: "#766de9",
-    },
     extend: {
+      colors: {
+        background: '#ffffff',
+        'textColor': "#000000",
+        'gradient1': "#f6f6f4",
+        'gradient2': "#9ea7b5",
+        'gradient3': "#c4c9d2",
+        'borderColorGreen': "#619e86",
+        'buttonColorShade1': "#844a92",
+        'buttonColorShade2': "#766de9",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
