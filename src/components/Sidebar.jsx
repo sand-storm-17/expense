@@ -8,7 +8,7 @@ const Sidebar = () => {
     return (
         <container className="sidebar bg-gradient1 px-8 py-5">
             <div className="upper flex-col">
-                <row className="profile flex px-4">
+                <row className="profile flex px-3">
                     <img src={"./next.svg"} alt="avatar" className="flex w-2/6 border-none rounded-full overflow-hidden" />
                     <div className='username text-lg flex w-4/6 m-3'>Nitansh</div>
                 </row>

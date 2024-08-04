@@ -4,7 +4,7 @@ import { CiSearch } from "react-icons/ci";
 import { IoMdNotificationsOutline } from "react-icons/io";
 function Appbar() {
   return (
-    <div className="flex p-2 m-auto bg-background text-textColor">
+    <div className="flex flex-shrink flex-grow-0 flex-auto w-full p-2 m-auto bg-background text-textColor">
       <div className="flex w-1/6 ml-7 justify-start text-2xl self-center">Icon</div>
 
       <div className="flex flex-row w-5/6 items-center justify-between m-5 ">
@@ -17,10 +17,10 @@ function Appbar() {
           />
         </div>
         <div className="flex justify-center items-center w-2/6">
-          <button className="border-black rounded-full border-opacity-40 border border-gradient2 p-2 m-1">
+          <button className="rounded-full border-opacity-40 border border-gradient2 p-2 m-1">
             <CiCircleAlert />
           </button>
-          <button className="border-black rounded-full border-opacity-40 border border-gradient2 p-2 m-1">
+          <button className="rounded-full border-opacity-40 border border-gradient2 p-2 m-1">
             <IoMdNotificationsOutline />
           </button>
           <div className="flex w-60 m-2 p-1 border-gradient2 border-opacity-30 justify-evenly rounded-lg border-2 overflow-hidden items-center">
