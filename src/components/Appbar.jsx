@@ -5,7 +5,7 @@ import { IoMdNotificationsOutline } from "react-icons/io";
 function Appbar() {
   return (
     <div className="flex p-2 m-auto bg-background text-textColor">
-      <div className="flex w-1/6 ml-7 justify-start self-center">Icon</div>
+      <div className="flex w-1/6 ml-7 justify-start text-2xl self-center">Icon</div>
 
       <div className="flex flex-row w-5/6 items-center justify-between m-5 ">
         <div className="relative w-4/6">
