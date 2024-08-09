@@ -4,7 +4,7 @@ import { CiSearch } from "react-icons/ci";
 import { IoMdNotificationsOutline } from "react-icons/io";
 function Appbar() {
   return (
-    <div className="flex flex-shrink flex-grow-0 flex-auto w-full p-2 m-auto bg-background text-textColor">
+    <div className="flex flex-shrink flex-grow-0 basis-auto w-full p-2 m-auto bg-background text-textColor">
       <div className="flex w-1/6 ml-7 justify-start text-2xl self-center">Icon</div>
 
       <div className="flex flex-row w-5/6 items-center justify-between m-5 ">

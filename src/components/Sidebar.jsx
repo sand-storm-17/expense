@@ -14,23 +14,23 @@ const Sidebar = () => {
                 </row>
                 <row className="feature">
                     <HiOutlineLightBulb className='text-2xl' />
-                    <span className='featureName text-lg'>Insights</span>
+                    <span className='featureName grow-[1] text-lg'>Insights</span>
                 </row>
                 <row className="feature">
                     <HiOutlineCreditCard className='text-2xl' />
-                    <span className='featureName text-lg'>Cards</span>
+                    <span className='featureName grow-[2] text-lg'>Cards</span>
                 </row>
                 <row className="feature">
                     <HiOutlineChartPie className='text-2xl' />
-                    <span className='featureName text-lg'>SplitWise</span>
+                    <span className='featureName grow-[3] text-lg'>Splitwise</span>
                 </row>
                 <row className="feature">
                     <HiOutlineDatabase className='text-2xl' />
-                    <span className='featureName text-lg'>Utilities</span>
+                    <span className='featureName grow-[1] text-lg'>Utilities</span>
                 </row>
                 <row className="feature">
                     <HiOutlineCurrencyRupee className='text-2xl' />
-                    <span className='featureName text-lg'>Tracker</span>
+                    <span className='featureName grow-[2] text-lg'>Tracker</span>
                 </row>
             </div>
 
