@@ -2,6 +2,7 @@ import React from 'react'
 import "./Sidebar.css"
 import { HiOutlineLightBulb, HiOutlineCurrencyRupee, HiOutlineDatabase, HiOutlineChartPie, HiOutlineCreditCard, HiWrenchScrewdriver } from "react-icons/hi";
 import { GoGear } from "react-icons/go";
+import Link from 'next/link';
 
 
 const Sidebar = () => {
@@ -14,7 +15,7 @@ const Sidebar = () => {
                 </row>
                 <row className="feature">
                     <HiOutlineLightBulb className='text-2xl' />
-                    <span className='featureName grow-[1] text-lg'>Insights</span>
+                    <Link href="/" className='featureName grow-[1] text-lg'>Insights</Link>
                 </row>
                 <row className="feature">
                     <HiOutlineCreditCard className='text-2xl' />

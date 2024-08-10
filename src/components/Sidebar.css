@@ -2,7 +2,7 @@
     width: 18vw;
     border-radius: 0 1.5rem 0 0;
     display: flex;
-    flex: 1 1 auto;
+    flex: 0 1 1/5;
     flex-direction: column;
     justify-content: space-between;
     min-width: 230px;

@@ -2,10 +2,11 @@ import { CiCircleAlert } from "react-icons/ci";
 import { IoIosArrowDown } from "react-icons/io";
 import { CiSearch } from "react-icons/ci";
 import { IoMdNotificationsOutline } from "react-icons/io";
+import Link from "next/link";
 function Appbar() {
   return (
-    <div className="flex flex-shrink flex-grow-0 basis-auto w-full p-2 m-auto bg-background text-textColor">
-      <div className="flex w-1/6 ml-7 justify-start text-2xl self-center">Icon</div>
+    <div className="flex flex-shrink flex-grow-0 basis-1/12 w-full p-2 m-auto bg-background text-textColor">
+      <Link href="/" className="flex w-1/6 ml-7 justify-start text-2xl self-center">Icon</Link>
 
       <div className="flex flex-row w-5/6 items-center justify-between m-5 ">
         <div className="relative w-4/6">
