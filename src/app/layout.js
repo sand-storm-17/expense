@@ -14,10 +14,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="{inter.className} flex flex-col">
+      <body className="{inter.className}">
         <Appbar />
-        <div className="flex flex-auto">
-          <Sidebar /> {children}
+        <div className="panel display basis-auto">
+          <Sidebar className="basis-auto w-1/5"/>
+          {children}
         </div>
       </body>
     </html>

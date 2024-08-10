@@ -19,7 +19,7 @@ const Sidebar = () => {
                 </row>
                 <row className="feature">
                     <HiOutlineCreditCard className='text-2xl' />
-                    <span className='featureName grow-[2] text-lg'>Cards</span>
+                    <Link href='/cards' className='featureName grow-[2] text-lg'>Cards</Link>
                 </row>
                 <row className="feature">
                     <HiOutlineChartPie className='text-2xl' />
