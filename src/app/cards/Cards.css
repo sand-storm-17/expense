@@ -1,0 +1,52 @@
+.cards {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 55px;
+    row-gap: 45px;
+    padding: 30px;
+}
+
+#walletImg {
+    height: 300px;
+}
+.walletLabel{
+    padding-right: 180px;
+    display: flex;
+    align-items: center;
+}
+.walletLabel h1 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #080808;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+.walletLabel h1:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: #ce5050;
+}
+
+.walletLabel h1:after {
+    width: 200px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 25px;
+    left: 50%;
+    margin-left: -100px;
+    background-color: #e00909;
+}

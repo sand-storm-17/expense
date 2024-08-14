@@ -27,7 +27,8 @@ function Appbar() {
           <div className="flex w-60 m-2 p-1 border-gradient2 border-opacity-30 justify-evenly rounded-lg border-2 overflow-hidden items-center">
             <img src={"./next.svg"} alt="avatar" className="flex w-1/5 border-none rounded-full overflow-hidden " />
             <div className="flex w-3/5 overflow-hidden">Username</div>
-            <button className="flex"><IoIosArrowDown /></button>
+            <button className="flex">
+              <IoIosArrowDown /></button>
           </div>
         </div>
       </div>

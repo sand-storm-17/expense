@@ -3,8 +3,7 @@ import "./Card.css";
 
 const Card = (props) => {
     return (
-        <div class="flex justify-center container text-black mt-5 w-4/5">
-            <div className="card p-2 px-3 py-3 bg-gradient1">
+        <div class="flex justify-around py-1.8 px-4 container bg-gradient1 card text-black">
                 <div className="flex justify-between items-center">
                     <img src="https://i.imgur.com/8ANWXql.png" width="20" height="20" />
                     <img src="https://i.imgur.com/SsTSozr.png" width="40" />
@@ -27,7 +26,6 @@ const Card = (props) => {
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
     )
 }
