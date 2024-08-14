@@ -1,11 +1,9 @@
 import Card from '@/components/Card/Card'
 import React from 'react'
-import "../cardPage.css";
+import "./cardPage.css";
 
 const page = () => {
-    const card = {id:0, name: "Nitansh Ritul", cvv: "101", expiry: "11/26", number:"1276874874", limit: 50000};
-    //TODO: Rest API to et a card by ID
-
+    const card = {name: "ABC XYZ", cvv: "000", expiry: "00/00", number:"111111111111", limit: 10000};
     return (
         <div className='flex-1 flex justify-center'>
             <div className="board flex flex-col place-items-center">
@@ -17,7 +15,7 @@ const page = () => {
                             className='border'
                             id="cardNumber"
                             type="text"
-                            placeholder={card.number}
+                            placeholder="Card Number"
                             required
                         />
                     </div>
@@ -27,7 +25,7 @@ const page = () => {
                             className='border'
                             id="cardNumber"
                             type="text"
-                            placeholder={card.name}
+                            placeholder="Name on the Card"
                             required
                         />
                     </div>
@@ -38,14 +36,14 @@ const page = () => {
                                 className='border'
                                 id="expirationMonth"
                                 type="number"
-                                placeholder={card.expiry.substring(0,2)}
+                                placeholder="Expiry Month"
                                 required
                             />
                             <input
                                 className='border'
                                 id="expirationYear"
                                 type="text"
-                                placeholder={card.expiry.substring(3,5)}
+                                placeholder="Expiry Year"
                                 required
                             />
                         </div>
@@ -56,7 +54,7 @@ const page = () => {
                             className='border'
                             id="cvvCode"
                             type="text"
-                            placeholder={card.cvv}
+                            placeholder="CVV Code"
                             required
                         />
                     </div>
@@ -66,7 +64,7 @@ const page = () => {
                             className='border'
                             id="cardLimit"
                             type="text"
-                            placeholder={card.limit}
+                            placeholder="What's the card limit..."
                             required
                         />
                     </div>
