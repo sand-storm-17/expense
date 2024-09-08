@@ -50,3 +50,52 @@
     margin-left: -100px;
     background-color: #e00909;
 }
+#addButton {
+    justify-self: center;
+    height: min-content;
+    padding: 1em 1.8em;
+    border: 2px solid #e13266;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    transition: 100ms linear;
+    z-index: 1;
+    font-family: inherit;
+    color: #e13266;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+  
+  #addButton::before {
+    content: "";
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #e13266;
+    transition: 200ms linear;
+    display: block;
+    z-index: -1;
+  }
+  
+  #addButton:hover::before {
+    width: 105%;
+  }
+  
+  #addButton:hover {
+    color: #fbfbfb;
+    transform: translateY(-7px);
+    box-shadow: 0px 7px 0px #e00a4a;
+    cursor: pointer;
+  }
+  
+  #addButton:active {
+    transform: translateY(-2px);
+    box-shadow: 0px 2px 0px #e00a4a;
+  }
+  

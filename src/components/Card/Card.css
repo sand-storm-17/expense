@@ -1,4 +1,5 @@
 .card {
+    background-color: #e13266;
     height: 180px;
     position: relative;
     display: flex;
@@ -11,7 +12,6 @@
     border-radius: 7px;
     transition: transform 0.2s ease-in;
     box-shadow: 3px 3px 8px #9ea7b5;
-
     font-family: "Raleway", sans-serif;
 }
 .cards .card:hover{
