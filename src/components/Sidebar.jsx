@@ -21,7 +21,7 @@ const Sidebar = () => {
                     <HiOutlineCreditCard className='text-2xl' />
                     <span className='featureName grow-[2] text-lg'>Cards</span>
                 </Link>
-                <Link href="/" className="feature">
+                <Link href="/splitwise" className="feature">
                     <HiOutlineChartPie className='text-2xl' />
                     <span className='featureName grow-[3] text-lg'>Splitwise</span>
                 </Link>
