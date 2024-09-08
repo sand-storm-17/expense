@@ -1,0 +1,29 @@
+.sidebar{
+    width: 18vw;
+    border-radius: 0 1.5rem 0 0;
+    display: flex;
+    flex: 0 1 1/5;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 230px;
+    max-width: 270px;
+}
+.feature{
+    /* user-select: none; */
+    border-radius: 35px;
+    padding: 10px 0px 10px 10px;
+    display: flex;
+    margin: 20px 6px;
+    place-items: center;
+    box-shadow: 1px 1px 100px #dcdfe3;
+}
+.feature:hover{
+    background-color: white;
+}
+.featureName{
+    margin: 0 24px;
+}
+body{
+    height: 100vh;
+    color: black
+}

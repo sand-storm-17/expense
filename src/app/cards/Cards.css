@@ -1,0 +1,101 @@
+.cards {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 55px;
+    row-gap: 45px;
+    padding: 30px;
+}
+
+#walletImg {
+    height: 300px;
+}
+.walletLabel{
+    padding-right: 180px;
+    display: flex;
+    align-items: center;
+}
+.walletLabel h1 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #080808;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+.walletLabel h1:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: #ce5050;
+}
+
+.walletLabel h1:after {
+    width: 200px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 25px;
+    left: 50%;
+    margin-left: -100px;
+    background-color: #e00909;
+}
+#addButton {
+    justify-self: center;
+    height: min-content;
+    padding: 1em 1.8em;
+    border: 2px solid #e13266;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    transition: 100ms linear;
+    z-index: 1;
+    font-family: inherit;
+    color: #e13266;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+  
+  #addButton::before {
+    content: "";
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #e13266;
+    transition: 200ms linear;
+    display: block;
+    z-index: -1;
+  }
+  
+  #addButton:hover::before {
+    width: 105%;
+  }
+  
+  #addButton:hover {
+    color: #fbfbfb;
+    transform: translateY(-7px);
+    box-shadow: 0px 7px 0px #e00a4a;
+    cursor: pointer;
+  }
+  
+  #addButton:active {
+    transform: translateY(-2px);
+    box-shadow: 0px 2px 0px #e00a4a;
+  }
+  
